@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>Eliminar a {{ hero.superhero }}</h2>
+<mat-dialog-content>
+  <p>Estas apunto de eliminar a este héroe</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No gracias</button>
+  <button mat-button (click)="confirmClick()" cdkFocusInitial>Ok</button>
+</mat-dialog-actions>

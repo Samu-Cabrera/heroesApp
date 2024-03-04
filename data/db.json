@@ -1,20 +1,12 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "usuario": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
   "heroes": [
-    {
-      "id": "dc-batman",
-      "superhero": "Batman",
-      "publisher": "DC Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
-    },
     {
       "id": "dc-superman",
       "superhero": "Superman",
@@ -25,11 +17,12 @@
     },
     {
       "id": "dc-flash",
-      "superhero": "Flash",
+      "superhero": "Flashh",
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+      "alt_hero": null
     },
     {
       "id": "dc-green",
@@ -46,14 +39,6 @@
       "alter_ego": "Oliver Queen",
       "first_appearance": "More Fun Comics #73",
       "characters": "Oliver Queen"
-    },
-    {
-      "id": "dc-wonder",
-      "superhero": "Wonder Woman",
-      "publisher": "DC Comics",
-      "alter_ego": "Princess Diana",
-      "first_appearance": "All Star Comics #8",
-      "characters": "Princess Diana"
     },
     {
       "id": "dc-martian",
@@ -166,6 +151,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "",
+      "superhero": "samu",
+      "publisher": "DC Marvel",
+      "alter_ego": "asd",
+      "first_appearance": "Cnrl",
+      "characters": "asjdjv",
+      "alt_hero": ""
     }
   ]
 }

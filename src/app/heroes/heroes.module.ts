@@ -11,6 +11,7 @@ import { LayoutComponent } from './pages/layout/layout.component';
 import { ListPageComponent } from './pages/list-page/list-page.component';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/hero-image.pipe';
+import { DialogConfirmComponent } from './components/dialog-confirm/dialog-confirm.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HeroImagePipe } from './pipes/hero-image.pipe';
     LayoutComponent,
     ListPageComponent,
     CardComponent,
-    HeroImagePipe
+    HeroImagePipe,
+    DialogConfirmComponent
   ],
   imports: [
     CommonModule,
