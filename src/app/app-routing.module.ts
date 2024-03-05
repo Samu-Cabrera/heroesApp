@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ErrorNofoundPageComponent } from './shared/pages/error-nofound-page/error-nofound-page.component';
+import { authCanActivate, canMatch } from './auth/guards/auth.guard';
+
 
 const routes: Routes = [
   {
@@ -9,7 +11,13 @@ const routes: Routes = [
   },
   {
     path: 'heroes',
-    loadChildren: () => import('./heroes/heroes.module').then(m => m.HeroesModule)
+    loadChildren: () => import('./heroes/heroes.module').then(m => m.HeroesModule),
+    canActivate: [
+      authCanActivate
+    ],
+    canMatch: [
+      canMatch
+    ]
   },
   {
     path: '404',
